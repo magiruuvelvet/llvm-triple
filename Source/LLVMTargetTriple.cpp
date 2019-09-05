@@ -59,7 +59,7 @@ const std::string LLVMTargetTriple::operating_system() const
         case llvm::Triple::CUDA:        return "NVIDIA CUDA";
         case llvm::Triple::NVCL:        return "NVIDIA OpenCL";
         case llvm::Triple::AMDHSA:      return "AMD HSA Runtime";
-        case llvm::Triple::PS4:         return "Sony PlayStation4 (Orbis OS)";
+        case llvm::Triple::PS4:         return "Sony PlayStation 4 (Orbis OS)";
         case llvm::Triple::ELFIAMCU:    return "IAMCU";
         case llvm::Triple::TvOS:        return "Apple tvOS";
         case llvm::Triple::WatchOS:     return "Apple watchOS";
