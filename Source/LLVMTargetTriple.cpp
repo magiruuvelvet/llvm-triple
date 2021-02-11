@@ -131,8 +131,8 @@ const std::string LLVMTargetTriple::environment() const
         case llvm::Triple::CODE16:      return "Code16";
         case llvm::Triple::EABI:        return "EABI (soft-float)";
         case llvm::Triple::EABIHF:      return "EABI (hard-float)";
-        case llvm::Triple::ELFv1:       return "ELF v1";
-        case llvm::Triple::ELFv2:       return "ELF v2";
+        //case llvm::Triple::ELFv1:       return "ELF v1";
+        //case llvm::Triple::ELFv2:       return "ELF v2";
         case llvm::Triple::Android:     return "Android";
         case llvm::Triple::Musl:        return "musl libc";
         case llvm::Triple::MuslEABI:    return "musl libc (EABI soft-float)";

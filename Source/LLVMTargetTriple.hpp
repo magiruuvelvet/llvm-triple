@@ -36,7 +36,7 @@ public:
 
     // detected architecture
     inline const std::string architecture() const
-    { return _triple.getArchTypeName(_triple.getArch()); }
+    { return _triple.getArchTypeName(_triple.getArch()).str(); }
 
     // detected hardware vendor
     const std::string vendor() const;
